@@ -68,7 +68,7 @@ Subscribe Me To Get Trial 1 Days
         await this.setStatus(`Aktif Selama ${uptime}
 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} 
 User In Database: ${totalreg} User 
-ZEROBOT NEXT PROJECT`).catch(_ => _)
+BotWea`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
