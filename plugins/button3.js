@@ -48,6 +48,10 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                                         "title": " Virus Menu",
                                         "description": "\nI Want To User Virus Menu",
                                         "rowId": ".virusmenu"
+                                    }, { 
+                                        "title": " Sewa Menu",
+                                        "description": "\nI Want To User Sewa Menu",
+                                        "rowId": ".nyewa"
                                     }
                                 ]
                             }
