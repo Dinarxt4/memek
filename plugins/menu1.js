@@ -448,6 +448,8 @@ let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')
 
     let _text  = before + '\n'
 
+ let content = conn.send2ButtonLoc(m.chat, await (await fetch(nani)).buffer(), `Halo *${conn.getName(m.sender)}* \nSaya BotolBotZ, Bot WhatsApp Yang Membantu Kamu Untuk Mempermudah Sesuatu Seperti Membuat Stiker Dan Lainnya, Ada Butuh Info Dariku?`, 'Note : Jika Button Tidak Muncul, Kamu Bisa Ketik #allmenu\n© wá.mê̷/͠ʙ⃨ᴏ᷿⃨ͥᴛ᷿⃨ͣᴏ᷿⃨ͫʟ᷿⃨⃔ʙ᷿⃨᷍ᴏ᷿⃨᷍ᴛ᷿⃨᷍ᴢ᷿⃨⃕', 'COMMAND', '.butmenu', `RULES`, `.prtrn`, m)
+
     for (let tag in groups) {
 
       _text += header.replace(/%category/g, tags[tag]) + '\n'
