@@ -67,7 +67,7 @@ thumbnail: await (await require('node-fetch')(imeg)).buffer(),
 
 conn.relayWAMessage(sendMsg)
 }
-handler.command = /^(sewa)$/i
+handler.command = /^(nyewa)$/i
 
 module.exports = handler
 
